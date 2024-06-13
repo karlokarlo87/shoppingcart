@@ -39,7 +39,7 @@ export function useAuthUser() {
         setValue_(data?.data);
       }
     },
-    onError: (error, variables, context) => {
+    onError: (error) => {
       // An error happened!
       console.log(error);
     },

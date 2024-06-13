@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import { useUsersId } from "../../services/querises";
 
 import { useParams, Link, Navigate } from "react-router-dom";
-import { useAuth } from "../../context/AuthContext";
 import axios from "axios";
 const PostList = () => {
-  const { setValue_ } = useAuth();
   let { from }: any = useParams();
   const usersIdsQuery = useUsersId(from);
   const [_isError, setIsError] = useState(false);

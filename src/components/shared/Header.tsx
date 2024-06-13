@@ -1,4 +1,4 @@
-import { Fragment, useContext } from "react";
+import { Fragment } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   // HiOutlineSearch,
@@ -7,7 +7,7 @@ import {
 } from "react-icons/hi";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import classNames from "classnames";
-import { AuthContext, useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../context/AuthContext";
 
 export default function Header() {
   const { setValue_ } = useAuth();

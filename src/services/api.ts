@@ -3,7 +3,7 @@ import { Users } from "../types/Users";
 import { Auth } from "../types/Auth";
 import { Resset } from "../types/Resset";
 import { UserCreate } from "../types/UserCreate";
-import { useAuth } from "../context/AuthContext";
+
 let getToken = localStorage.getItem("token");
 
 const BASE_URL = "https://shoppingcart.ge/api";
