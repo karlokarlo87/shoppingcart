@@ -42,7 +42,7 @@ export default function Header() {
                     "p-1.5 rounded-sm inline-flex item-center text-gray hove:text-opacity-100 focus:outline-none active:bg-gray-100"
                   )}
                 >
-                  <HiOutlineChatAlt fontSize={24} />
+                  <HiOutlineChatAlt />
                 </Popover.Button>
                 <Transition
                   as={Fragment}
@@ -65,7 +65,7 @@ export default function Header() {
               </>
             )}
           </Popover>
-          <HiOutlineBell fontSize={24} />
+          <HiOutlineBell />
           <Menu as="div" className="relative inline-block text-left">
             <div>
               <Menu.Button className="ml-2 inline-flex rounded-full outline-none focus:ring-2 focus:ring-neutral-400 ">
