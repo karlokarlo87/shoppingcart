@@ -29,4 +29,10 @@ export default {
       backgroundColor: ["active"],
     },
   },
+  plugins: [
+    require("tailwindcss/nesting"),
+    require("tailwindcss"),
+    // require("autoprefixer"),
+    // require("flowbite/plugin"),
+  ],
 };
