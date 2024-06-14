@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.js";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import { AuthContext } from "./context/AuthContext.tsx";
 const queryClient = new QueryClient({
@@ -10,12 +10,12 @@ const queryClient = new QueryClient({
 });
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <QueryClientProvider client={queryClient}>
         <AuthContext>
           <App />
         </AuthContext>
       </QueryClientProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
