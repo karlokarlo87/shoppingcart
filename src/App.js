@@ -11,15 +11,15 @@ import Users from "./components/users/Users.tsx";
 import UsersList from "./components/users/UsersList.tsx";
 import UserCreate from "./components/users/UserCreate.tsx";
 import UsersView from "./components/users/UsersView.tsx";
-import Layout from "./components/shared/layout";
-import Dashboard from "./components/Dashboard";
-import Products from "./components/Products";
-import Orders from "./components/Orders";
-import Order from "./components/Order";
-import Customers from "./components/Customers";
-import Customer from "./components/Customer";
-import Product from "./components/Product";
-import Categories from "./components/Categories";
+import Layout from "./components/shared/layout.tsx";
+import Dashboard from "./components/Dashboard.tsx";
+import Products from "./components/Products.tsx";
+import Orders from "./components/Orders.tsx";
+import Order from "./components/Order.tsx";
+import Customers from "./components/Customers.tsx";
+import Customer from "./components/Customer.tsx";
+import Product from "./components/Product.tsx";
+import Categories from "./components/Categories.tsx";
 import NotFound from "./components/notfound/NotFound.tsx";
 
 function App() {
